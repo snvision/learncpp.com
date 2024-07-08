@@ -1,16 +1,5 @@
-cmake_minimum_required(VERSION 3.5)
-
 project(hello_world LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
-
-add_executable(hello_world main.cpp
-    Readme.md)
-
-include(GNUInstallDirs)
-install(TARGETS hello_world
-    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
-    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+add_executable(${PROJECT_NAME}
+  main.cpp
 )
