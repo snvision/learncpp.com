@@ -1,6 +1,6 @@
 Обучаюсь по бесплатному онлайн-учебнику [LearnCpp.com](https://www.learncpp.com/).
 
-Обучение корирует мой наставник — [conelov](https://github.com/conelov).
+Обучение курирует мой наставник — [conelov](https://github.com/conelov).
 
 ## Программа обучения
 - [x] [0.1 Introduction to these tutorials](https://www.learncpp.com/cpp-tutorial/introduction-to-these-tutorials/)
