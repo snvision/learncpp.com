@@ -20,7 +20,6 @@ int main() {
   std::int16_t fourthNum;
   std::cin >> fourthNum;
 
-
   std::cout << "You entered " << firstNum
             << " and " << secondNum
             << " and " << thirdNum
