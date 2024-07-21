@@ -15,3 +15,5 @@ endif()
 add_subdirectory(hello_world)
 add_subdirectory(print_standart)
 add_subdirectory(output_numbers)
+add_subdirectory(multiplyBy2)
+
