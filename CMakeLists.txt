@@ -18,4 +18,4 @@ add_subdirectory(output_numbers)
 add_subdirectory(multiplyBy2)
 add_subdirectory(centuryFromYear)
 add_subdirectory(sumAndDiffTwoNum)
-
+add_subdirectory(twiceAsOld)
