@@ -11,21 +11,12 @@ std::int16_t getYear() {
   return year;
 }
 
-// К году прибавляется 99 и затем сумма делится на 100,
-// чтобы получить номер века.
-std::int16_t centuryFromYear(std::int16_t year) {
-  return (year + 99) / 100;
-}
-
-// Печатаем номер века.
-void printCentury(std::int16_t year) {
-  std::cout << "Century: "
-            << centuryFromYear(year) << '\n';
-}
-
 int main() {
-  std::int16_t year = getYear();
-  printCentury(year);
+  const std::int16_t year = getYear();
+
+  // К году прибавляется 99 и затем сумма делится на 100,
+  // чтобы получить номер века.
+  std::cout << "Century: " << (year + 99) / 100 << '\n';
 
   return EXIT_SUCCESS;
 }
