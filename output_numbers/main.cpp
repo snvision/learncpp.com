@@ -3,28 +3,32 @@
 #include <iostream>
 
 
+// Считывание числа с клавиатуры.
+std::int16_t getNumber() {
+  std::int16_t number;
+  std::cin >> number;
+  return number;
+}
+
+// Почему не корректно работала программа?
 int main() {
   std::cout << "Enter first num: ";
-  std::int16_t firstNum;
-  std::cin >> firstNum;
+  const std::int16_t firstNum = getNumber();
 
   std::cout << "Enter second num: ";
-  std::int16_t secondNum;
-  std::cin >> secondNum;
+  const std::int16_t secondNum = getNumber();
 
   std::cout << "Enter second num: ";
-  std::int16_t thirdNum;
-  std::cin >> thirdNum;
+  const std::int16_t thirdNum = getNumber();
 
   std::cout << "Enter second num: ";
-  std::int16_t fourthNum;
-  std::cin >> fourthNum;
+  const std::int16_t fourthNum = getNumber();
 
-  std::cout << "You entered " << firstNum
-            << " and " << secondNum
-            << " and " << thirdNum
-            << " and " << fourthNum
-            << '\n';
+  std::cout << "You entered: "
+            << firstNum << " and "
+            << secondNum << " and "
+            << thirdNum << " and "
+            << fourthNum << '\n';
 
   return EXIT_SUCCESS;
 }
