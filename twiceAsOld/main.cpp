@@ -10,6 +10,7 @@ std::uint16_t getAge() {
   return age;
 }
 
+
 int main() {
   std::cout << "Enter father age: ";
   const std::uint16_t fatherAge = getAge();
