@@ -10,6 +10,7 @@ std::int16_t getNumber() {
   return number;
 }
 
+
 int main() {
   std::cout << "Enter first integer number: ";
   const std::int16_t firstNumber = getNumber();
@@ -17,8 +18,8 @@ int main() {
   const std::int16_t secondNumber = getNumber();
 
   // Печать суммы и разности чисел, введённых с клавиатуры.
-  std::cout << firstNumber << " + " << secondNumber << " is " << firstNumber + secondNumber << '.' << '\n'
-            << firstNumber << " - " << secondNumber << " is " << firstNumber - secondNumber << '.' << '\n';
+  std::cout << firstNumber << " + " << secondNumber << " is " << (firstNumber + secondNumber) << ".\n"
+            << firstNumber << " - " << secondNumber << " is " << (firstNumber - secondNumber) << ".\n";
 
   return EXIT_SUCCESS;
 }
