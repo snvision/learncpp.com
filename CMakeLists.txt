@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
@@ -17,4 +17,5 @@ add_subdirectory(print_standart)
 add_subdirectory(output_numbers)
 add_subdirectory(multiplyBy2)
 add_subdirectory(centuryFromYear)
-
+add_subdirectory(sumAndDiffTwoNum)
+add_subdirectory(twiceAsOld)
