@@ -10,6 +10,7 @@ std::int16_t getNumber() {
   return number;
 }
 
+
 // Почему не корректно работала программа?
 int main() {
   std::cout << "Enter first num: ";
