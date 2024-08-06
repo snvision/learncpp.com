@@ -16,13 +16,13 @@ i16 getNumber() {
 
 
 // Умножение числа на 2
-i16 doubleNumber(i16 number) {
+constexpr i16 doubleNumber(i16 number) {
   return number * 2;
 }
 
 
 int main() {
-  i16 number = getNumber();
+  const i16 number = getNumber();
   std::cout << "Double number: "
             << doubleNumber(number) << '\n';
 
