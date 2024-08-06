@@ -1,3 +1,5 @@
 build-*
 cmake-build-*
+external
+.idea
 CMakeLists.txt.user
