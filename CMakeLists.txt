@@ -20,3 +20,5 @@ add_subdirectory(centuryFromYear)
 add_subdirectory(sumAndDiffTwoNum)
 add_subdirectory(twiceAsOld)
 add_subdirectory(sketch)
+add_subdirectory(doubleNumber)
+
