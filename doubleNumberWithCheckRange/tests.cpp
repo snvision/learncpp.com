@@ -7,8 +7,8 @@ namespace {
 
 
 TEST(mul, smok) {
-  ASSERT_EQ(1, 1);
+  ASSERT_NO_THROW(multiplyNumber(1, 2));
 }
 
 
-}
+}// namespace

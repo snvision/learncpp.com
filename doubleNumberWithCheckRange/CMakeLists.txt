@@ -15,5 +15,5 @@ add_executable(${name}
 )
 
 target_link_libraries(${name} PRIVATE
-  GTest::gtest
+  GTest::gtest_main
 )
