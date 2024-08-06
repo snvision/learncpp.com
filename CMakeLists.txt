@@ -21,4 +21,5 @@ add_subdirectory(sumAndDiffTwoNum)
 add_subdirectory(twiceAsOld)
 add_subdirectory(sketch)
 add_subdirectory(doubleNumber)
+add_subdirectory(doubleNumberWithCheckRange)
 
